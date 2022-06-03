@@ -1,0 +1,23 @@
+html,body{
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    user-select: none;
+ }
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 0%;
+    padding: 0px;
+    border: 2px solid red;
+    width: 700px;
+    height: 650px;
+}
+.container>div{
+    margin: 0px;
+    padding: 0%;
+}
+
+.grid-look{
+    background-color: black;
+}
